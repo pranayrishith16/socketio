@@ -27,7 +27,7 @@ io.on('connection', socket => {
     socket.join(user.room);
 
     // Welcome current user
-    socket.emit('message', formatMessage(botName, 'Welcome to ChatCord!'));
+    socket.emit('message', formatMessage(botName, 'Welcome to ChatIO!'));
 
     // Broadcast when a user connects
     socket.broadcast
@@ -73,3 +73,31 @@ io.on('connection', socket => {
 const PORT = process.env.PORT || 3000;
 
 server.listen(PORT, () => console.log(`Server running on port ${PORT}`));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//abstract
+//Intro
+//literature survey
+// existing systems
+//disad
+// proposed system
+// ad == anonymous, no storing of messages, lightweight, no account needed
+// tech domain == 
+// hardware req == win,1.7Ghz, 4gb, 250gb
+// system archi
+// work
